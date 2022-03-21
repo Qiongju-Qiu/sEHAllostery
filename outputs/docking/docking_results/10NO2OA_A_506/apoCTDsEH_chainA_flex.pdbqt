@@ -1,0 +1,21 @@
+BEGIN_RES HIS A 506
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  HIS A 506     -73.440 -17.347 -34.475  1.00 66.02     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS A 506     -74.877 -17.011 -34.044  1.00 72.78     0.093 C 
+BRANCH   2   3
+ATOM      3  CG  HIS A 506     -75.817 -18.172 -34.113  1.00 78.17     0.028 A 
+ATOM      4  ND1 HIS A 506     -76.508 -18.631 -33.011  1.00 81.53    -0.354 N 
+ATOM      5  CE1 HIS A 506     -77.244 -19.672 -33.360  1.00 82.69     0.180 A 
+ATOM      6  HD1 HIS A 506     -76.459 -18.230 -32.074  1.00  0.00     0.166 HD
+ATOM      7  NE2 HIS A 506     -77.063 -19.896 -34.650  1.00 81.71    -0.360 N 
+ATOM      8  HE2 HIS A 506     -77.511 -20.636 -35.191  1.00  0.00     0.166 HD
+ATOM      9  CD2 HIS A 506     -76.174 -18.972 -35.146  1.00 76.91     0.114 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 506

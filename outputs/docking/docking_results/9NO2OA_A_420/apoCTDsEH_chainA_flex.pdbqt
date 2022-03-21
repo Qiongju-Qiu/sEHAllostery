@@ -1,0 +1,21 @@
+BEGIN_RES HIS A 420
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  HIS A 420     -74.750 -28.320 -11.320  1.00105.39     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS A 420     -75.163 -29.805 -11.414  1.00111.85     0.093 C 
+BRANCH   2   3
+ATOM      3  CG  HIS A 420     -75.126 -30.365 -12.801  1.00122.22     0.028 A 
+ATOM      4  ND1 HIS A 420     -76.270 -30.632 -13.525  1.00126.83    -0.354 N 
+ATOM      5  CE1 HIS A 420     -75.938 -31.123 -14.705  1.00124.29     0.180 A 
+ATOM      6  HD1 HIS A 420     -77.224 -30.475 -13.199  1.00  0.00     0.166 HD
+ATOM      7  NE2 HIS A 420     -74.620 -31.187 -14.773  1.00128.63    -0.360 N 
+ATOM      8  HE2 HIS A 420     -74.084 -31.528 -15.571  1.00  0.00     0.166 HD
+ATOM      9  CD2 HIS A 420     -74.088 -30.720 -13.595  1.00125.84     0.114 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 420

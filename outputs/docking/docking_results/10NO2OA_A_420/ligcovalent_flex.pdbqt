@@ -1,0 +1,87 @@
+BEGIN_RES HIS A 420
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2   and  C3  
+REMARK    2  A    between atoms: C3   and  C4  
+REMARK    3  A    between atoms: C4   and  C5  
+REMARK    4  A    between atoms: C5   and  C6  
+REMARK    5  A    between atoms: C6   and  C7  
+REMARK    6  A    between atoms: C7   and  C8  
+REMARK    7  A    between atoms: C8   and  C9  
+REMARK    8  A    between atoms: C10  and  C11 
+REMARK    9  A    between atoms: C11  and  C12 
+REMARK   10  A    between atoms: C12  and  C13 
+REMARK   11  A    between atoms: C13  and  C14 
+REMARK   12  A    between atoms: C14  and  C15 
+REMARK   13  A    between atoms: C15  and  C16 
+REMARK   14  A    between atoms: C16  and  C17 
+REMARK   15  A    between atoms: C17  and  C18 
+REMARK   16  A    between atoms: CA   and  CB  
+REMARK   17  A    between atoms: CB   and  CG  
+ROOT
+HETATM    1  CA  HIS A 420     -74.750 -28.320 -11.320  1.00  0.00     0.141 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  CB  HIS A 420     -75.163 -29.805 -11.414  1.00  0.00     0.092 C 
+BRANCH   2   3
+HETATM    3  CG  HIS A 420     -75.126 -30.365 -12.801  1.00  0.00     0.049 A 
+HETATM    4  CD2 HIS A 420     -74.088 -30.720 -13.595  1.00  0.00     0.120 A 
+HETATM    5  NE2 HIS A 420     -74.620 -31.187 -14.773  1.00  0.00    -0.329 N 
+HETATM    6  C10 HIS A 420     -73.942 -31.618 -15.782  1.00  0.00     0.040 A 
+HETATM    7  CE1 HIS A 420     -75.938 -31.123 -14.705  1.00  0.00     0.257 A 
+HETATM    8  C9  HIS A 420     -74.586 -31.998 -16.895  1.00  0.00     0.087 A 
+HETATM    9  N21 HIS A 420     -76.041 -31.931 -16.984  1.00  0.00    -0.101 N 
+HETATM   10  O23 HIS A 420     -76.637 -31.515 -15.998  1.00  0.00     0.000 OA
+HETATM   11  O22 HIS A 420     -76.548 -32.297 -18.037  1.00  0.00    -0.061 OA
+HETATM   12  ND1 HIS A 420     -76.270 -30.632 -13.525  1.00  0.00    -0.263 NA
+BRANCH   6  13
+HETATM   13  C11 HIS A 420     -72.446 -31.687 -15.691  1.00  0.00     0.059 C 
+BRANCH  13  14
+HETATM   14  C12 HIS A 420     -72.039 -33.028 -15.158  1.00  0.00     0.006 C 
+BRANCH  14  15
+HETATM   15  C13 HIS A 420     -72.632 -33.226 -13.795  1.00  0.00     0.000 C 
+BRANCH  15  16
+HETATM   16  C14 HIS A 420     -72.225 -34.568 -13.263  1.00  0.00     0.000 C 
+BRANCH  16  17
+HETATM   17  C15 HIS A 420     -72.818 -34.766 -11.899  1.00  0.00     0.001 C 
+BRANCH  17  18
+HETATM   18  C16 HIS A 420     -74.314 -34.698 -11.990  1.00  0.00     0.010 C 
+BRANCH  18  19
+HETATM   19  C17 HIS A 420     -74.907 -34.896 -10.627  1.00  0.00     0.113 C 
+BRANCH  19  20
+HETATM   20  C18 HIS A 420     -76.403 -34.827 -10.718  1.00  0.00     0.172 C 
+HETATM   21  O19 HIS A 420     -77.044 -33.974 -10.088  1.00  0.00    -0.648 OA
+HETATM   22  O20 HIS A 420     -76.977 -35.652 -11.444  1.00  0.00    -0.648 OA
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   6  13
+BRANCH   8  23
+HETATM   23  C8  HIS A 420     -73.834 -32.505 -18.090  1.00  0.00     0.064 C 
+BRANCH  23  24
+HETATM   24  C7  HIS A 420     -74.114 -31.621 -19.269  1.00  0.00     0.006 C 
+BRANCH  24  25
+HETATM   25  C6  HIS A 420     -73.362 -32.128 -20.464  1.00  0.00     0.000 C 
+BRANCH  25  26
+HETATM   26  C5  HIS A 420     -73.643 -31.245 -21.643  1.00  0.00     0.000 C 
+BRANCH  26  27
+HETATM   27  C4  HIS A 420     -72.891 -31.752 -22.838  1.00  0.00     0.000 C 
+BRANCH  27  28
+HETATM   28  C3  HIS A 420     -73.172 -30.868 -24.017  1.00  0.00    -0.000 C 
+BRANCH  28  29
+HETATM   29  C2  HIS A 420     -72.420 -31.375 -25.212  1.00  0.00    -0.005 C 
+HETATM   30  C1  HIS A 420     -72.701 -30.492 -26.391  1.00  0.00     0.005 C 
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   8  23
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 420

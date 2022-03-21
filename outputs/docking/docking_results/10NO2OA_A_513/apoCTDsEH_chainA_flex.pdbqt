@@ -1,0 +1,21 @@
+BEGIN_RES HIS A 513
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  HIS A 513     -64.469 -11.979 -41.227  1.00 75.10     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS A 513     -63.730 -10.659 -41.509  1.00 77.00     0.093 C 
+BRANCH   2   3
+ATOM      3  CG  HIS A 513     -63.760  -9.716 -40.350  1.00 81.31     0.028 A 
+ATOM      4  ND1 HIS A 513     -64.897  -9.028 -39.992  1.00 82.93    -0.354 N 
+ATOM      5  HD1 HIS A 513     -65.786  -9.063 -40.490  1.00  0.00     0.166 HD
+ATOM      6  CE1 HIS A 513     -64.663  -8.318 -38.910  1.00 83.26     0.180 A 
+ATOM      7  NE2 HIS A 513     -63.407  -8.510 -38.554  1.00 88.28    -0.360 N 
+ATOM      8  CD2 HIS A 513     -62.825  -9.397 -39.427  1.00 86.43     0.114 A 
+ATOM      9  HE2 HIS A 513     -62.943  -8.071 -37.759  1.00  0.00     0.166 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 513

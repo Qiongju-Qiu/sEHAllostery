@@ -1,0 +1,89 @@
+BEGIN_RES CYS A 522
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CX   and  CX  
+REMARK    2  A    between atoms: CX   and  CX  
+REMARK    3  A    between atoms: CX   and  CX  
+REMARK    4  A    between atoms: CX   and  CX  
+REMARK    5  A    between atoms: CX   and  CX  
+REMARK    6  A    between atoms: CX   and  CX  
+REMARK    7  A    between atoms: CX   and  CX  
+REMARK    8  A    between atoms: CX   and  SG  
+REMARK    9  A    between atoms: CX   and  NX  
+REMARK   10  A    between atoms: CX   and  CX  
+REMARK   11  A    between atoms: CX   and  CX  
+REMARK   12  A    between atoms: CX   and  CX  
+REMARK   13  A    between atoms: CX   and  CX  
+REMARK   14  A    between atoms: CX   and  CX  
+REMARK   15  A    between atoms: CX   and  CX  
+REMARK   16  A    between atoms: CX   and  CX  
+REMARK   17  A    between atoms: CX   and  CX  
+REMARK   18  A    between atoms: CA   and  CB  
+REMARK   19  A    between atoms: CB   and  SG  
+ROOT
+HETATM    1  CA  CYS A 522     -59.037 -29.544 -24.292  1.00  0.00     0.250 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  CB  CYS A 522     -58.601 -28.472 -25.251  1.00  0.00     0.117 C 
+BRANCH   2   3
+HETATM    3  SG  CYS A 522     -58.016 -27.016 -24.425  1.00  0.00    -0.130 SA
+BRANCH   3   4
+HETATM    4  CX  CYS A 522     -56.878 -27.958 -23.432  1.00  0.00     0.005 C 
+HETATM    5  CX  CYS A 522     -57.246 -28.455 -22.242  1.00  0.00     0.081 C 
+BRANCH   5   6
+HETATM    6  NX  CYS A 522     -58.592 -28.241 -21.719  1.00  0.00    -0.092 N 
+HETATM    7  OX  CYS A 522     -58.844 -28.729 -20.624  1.00  0.00    -0.057 OA
+HETATM    8  OX  CYS A 522     -59.359 -27.590 -22.418  1.00  0.00    -0.216 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+HETATM    9  CX  CYS A 522     -56.287 -29.249 -21.405  1.00  0.00     0.063 C 
+BRANCH   9  10
+HETATM   10  CX  CYS A 522     -55.533 -28.324 -20.495  1.00  0.00     0.006 C 
+BRANCH  10  11
+HETATM   11  CX  CYS A 522     -54.575 -29.118 -19.658  1.00  0.00     0.000 C 
+BRANCH  11  12
+HETATM   12  CX  CYS A 522     -53.609 -29.838 -20.552  1.00  0.00     0.000 C 
+BRANCH  12  13
+HETATM   13  CX  CYS A 522     -52.650 -30.632 -19.715  1.00  0.00     0.001 C 
+BRANCH  13  14
+HETATM   14  CX  CYS A 522     -51.684 -31.352 -20.608  1.00  0.00     0.010 C 
+BRANCH  14  15
+HETATM   15  CX  CYS A 522     -50.725 -32.146 -19.771  1.00  0.00     0.113 C 
+BRANCH  15  16
+HETATM   16  CX  CYS A 522     -49.759 -32.866 -20.665  1.00  0.00     0.172 C 
+HETATM   17  OX  CYS A 522     -48.869 -33.590 -20.194  1.00  0.00    -0.648 OA
+HETATM   18  OX  CYS A 522     -49.880 -32.715 -21.889  1.00  0.00    -0.648 OA
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+BRANCH   4  19
+HETATM   19  CX  CYS A 522     -55.495 -28.178 -23.969  1.00  0.00     0.048 C 
+BRANCH  19  20
+HETATM   20  CX  CYS A 522     -55.106 -27.019 -24.838  1.00  0.00     0.005 C 
+BRANCH  20  21
+HETATM   21  CX  CYS A 522     -55.133 -25.756 -24.028  1.00  0.00     0.000 C 
+BRANCH  21  22
+HETATM   22  CX  CYS A 522     -54.744 -24.597 -24.896  1.00  0.00     0.000 C 
+BRANCH  22  23
+HETATM   23  CX  CYS A 522     -55.711 -24.480 -26.037  1.00  0.00     0.000 C 
+BRANCH  23  24
+HETATM   24  CX  CYS A 522     -55.322 -23.320 -26.906  1.00  0.00    -0.000 C 
+BRANCH  24  25
+HETATM   25  CX  CYS A 522     -56.289 -23.203 -28.046  1.00  0.00    -0.005 C 
+HETATM   26  CX  CYS A 522     -55.899 -22.044 -28.915  1.00  0.00     0.005 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 522

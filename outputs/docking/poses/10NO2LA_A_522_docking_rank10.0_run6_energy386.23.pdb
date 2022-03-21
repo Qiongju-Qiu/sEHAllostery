@@ -1,0 +1,114 @@
+USER    Run = 6
+USER    DPF = protein_ligcovalent.dpf
+USER
+USER    Estimated Free Energy of Binding    = +386.23 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     = +381.45 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  = +377.46 kcal/mol
+USER        Internal Moving-Moving Receptor =   +4.00 kcal/mol
+USER    (3) Torsional Free Energy           =   +4.77 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER
+USER
+USER    NEWDPF move empty
+USER    NEWDPF about -61.431000 -27.481000 -22.767000
+USER    NEWDPF tran0 -53.639607 -34.190318 -17.948170
+USER    NEWDPF quaternion0 -0.165191 0.138092 0.848099 -0.484119
+USER    NEWDPF axisangle0 -0.188789 0.157819 0.969253 -122.090501
+USER    NEWDPF quat0 -0.188789 0.157819 0.969253 -122.090501
+USER    NEWDPF dihe0 -81.63 -146.97 179.97 -111.31 83.71 47.70 -180.00 44.86 17.68 112.54 112.07 -147.55 15.30 32.30 141.60 77.78
+USER  keepresnum = 1
+USER
+BEGIN_RES CYS A 522
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CX   and  CX
+REMARK    2  A    between atoms: CX   and  CX
+REMARK    3  A    between atoms: CX   and  CX
+REMARK    4  A    between atoms: CX   and  CX
+REMARK    5  A    between atoms: CX   and  CX
+REMARK    6  A    between atoms: CX   and  CX
+REMARK    7  A    between atoms: CX   and  CX
+REMARK    8  A    between atoms: CX   and  CX
+REMARK    9  A    between atoms: CX   and  CX
+REMARK   10  A    between atoms: CX   and  CX
+REMARK   11  A    between atoms: CX   and  CX
+REMARK   12  A    between atoms: CX   and  CX
+REMARK   13  A    between atoms: CX   and  CX
+REMARK   14  A    between atoms: CX   and  CX
+REMARK   15  A    between atoms: CA   and  CB
+REMARK   16  A    between atoms: CB   and  SG
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  CYS A 522     -59.037 -29.544 -24.292 +0.00 +0.00    +0.210 C
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 522     -58.601 -28.472 -25.251 +0.00 +0.00    +0.101 C
+BRANCH   2   3
+ATOM      3  SG  CYS A 522     -56.838 -28.380 -25.414+13.06 +0.13    -0.174 SA
+ATOM      4  H   CYS A 522     -56.665 -29.203 -24.050 +0.26 -0.34    +0.308 HD
+ATOM      5  OX  CYS A 522     -56.560 -29.977 -23.533 +2.12 +0.37    -0.249 OA
+ATOM      6  NX  CYS A 522     -56.508 -31.074 -24.076+64.61 -0.00    -0.125 N
+ATOM      7  CX  CYS A 522     -56.617 -31.094 -25.532+57.12 -0.03    +0.087 A
+ATOM      8  OX  CYS A 522     -56.375 -32.156 -23.517+56.33 -0.17    -0.538 OA
+ATOM      9  CX  CYS A 522     -56.765 -29.959 -26.231+25.53 +0.01    -0.007 A
+BRANCH   7  10
+ATOM     10  CX  CYS A 522     -56.556 -32.425 -26.220+50.90 -0.04    +0.090 C
+BRANCH  10  11
+ATOM     11  CX  CYS A 522     -56.146 -32.231 -27.650 +6.71 +0.02    -0.024 C
+ATOM     12  CX  CYS A 522     -55.781 -33.270 -28.413 -0.33 +0.02    -0.030 C
+BRANCH  12  13
+ATOM     13  CX  CYS A 522     -55.769 -34.667 -27.866 -0.18 -0.02    +0.027 C
+BRANCH  13  14
+ATOM     14  CX  CYS A 522     -54.936 -35.545 -28.751 -0.13 -0.00    +0.004 C
+BRANCH  14  15
+ATOM     15  CX  CYS A 522     -53.494 -35.148 -28.636 -0.10 +0.00    -0.000 C
+BRANCH  15  16
+ATOM     16  CX  CYS A 522     -53.217 -34.666 -27.244 -0.15 +0.00    -0.005 C
+ATOM     17  CX  CYS A 522     -52.274 -33.501 -27.294 -0.17 -0.00    +0.005 C
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+BRANCH   9  18
+ATOM     18  CX  CYS A 522     -56.877 -29.980 -27.727+98.85 -0.12    +0.088 C
+BRANCH  18  19
+ATOM     19  CX  CYS A 522     -55.506 -29.925 -28.331 +2.92 -0.00    +0.002 C
+BRANCH  19  20
+ATOM     20  CX  CYS A 522     -55.614 -29.570 -29.784 +0.87 -0.00    +0.000 C
+BRANCH  20  21
+ATOM     21  CX  CYS A 522     -55.799 -30.820 -30.593 -0.51 -0.00    +0.000 C
+BRANCH  21  22
+ATOM     22  CX  CYS A 522     -54.547 -31.644 -30.533 -0.19 -0.00    +0.001 C
+BRANCH  22  23
+ATOM     23  CX  CYS A 522     -54.208 -32.139 -31.908 -0.17 -0.01    +0.010 C
+BRANCH  23  24
+ATOM     24  CX  CYS A 522     -52.855 -31.628 -32.303 -0.12 -0.10    +0.113 C
+BRANCH  24  25
+ATOM     25  CX  CYS A 522     -53.010 -30.385 -33.129 -0.12 -0.11    +0.172 C
+ATOM     26  OX  CYS A 522     -54.132 -29.928 -33.392 +0.03 +0.35    -0.648 OA
+ATOM     27  OX  CYS A 522     -51.981 -29.830 -33.539 -0.02 +0.40    -0.648 OA
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   9  18
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 522
+TER
+ENDMDL

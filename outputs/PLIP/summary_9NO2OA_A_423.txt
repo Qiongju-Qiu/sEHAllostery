@@ -1,0 +1,11 @@
+rank; run; energy; types; h_bonds; hydropho_bonds; saltbridges; others; input_A 
+6; 4; -4.6; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 5; 1; 0; A.372, A.376, A.382, A.385, A.386, A.389, A.392, A.423 
+10; 1; -4.32; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 5; 1; 0; A.372, A.376, A.382, A.385, A.386, A.389, A.423 
+2; 8; -4.85; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 8; 1; 0; A.372, A.376, A.382, A.385, A.386, A.388, A.389, A.392, A.423 
+1; 10; -4.88; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 6; 1; 0; A.372, A.376, A.382, A.385, A.386, A.388, A.389, A.423 
+8; 2; -4.45; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 7; 1; 0; A.372, A.376, A.382, A.385, A.386, A.388, A.389, A.423 
+4; 7; -4.66; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 5; 1; 0; A.376, A.382, A.385, A.386, A.389, A.392, A.423 
+7; 9; -4.6; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 6; 1; 0; A.372, A.376, A.382, A.385, A.386, A.389, A.392, A.423 
+9; 3; -4.43; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 6; 1; 0; A.376, A.382, A.385, A.386, A.388, A.389, A.392, A.423 
+3; 6; -4.84; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 7; 1; 0; A.372, A.376, A.382, A.385, A.386, A.389, A.392, A.423 
+5; 5; -4.62; ['Hydrophobic Interactions', 'Hydrogen Bonds', 'Salt Bridges']; 1; 7; 1; 0; A.372, A.376, A.382, A.385, A.386, A.389, A.423 

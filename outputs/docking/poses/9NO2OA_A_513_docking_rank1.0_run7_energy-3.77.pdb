@@ -1,0 +1,127 @@
+USER    Run = 7
+USER    DPF = protein_ligcovalent.dpf
+USER
+USER    Estimated Free Energy of Binding    =   -3.77 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.74 mM (millimolar)  [Temperature = 298.15 K]
+USER
+USER    (1) Final Intermolecular Energy     =   +0.00 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER        Moving Ligand-Moving Receptor   =   +0.00 kcal/mol
+USER           vdW + Hbond + desolv Energy  =   +0.00 kcal/mol
+USER           Electrostatic Energy         =   +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =   -9.43 kcal/mol
+USER        Internal Energy Ligand          =   +0.00 kcal/mol
+USER        Internal Moving-Fixed Receptor  =   -6.27 kcal/mol
+USER        Internal Moving-Moving Receptor =   -3.17 kcal/mol
+USER    (3) Torsional Free Energy           =   +5.67 kcal/mol
+USER    (4) Unbound System's Energy         =   +0.00 kcal/mol
+USER
+USER
+USER    NEWDPF move empty
+USER    NEWDPF about -62.696000 -8.621000 -37.535000
+USER    NEWDPF tran0 -72.800672 -5.066378 -46.084382
+USER    NEWDPF quaternion0 0.502082 0.062141 0.002692 0.862580
+USER    NEWDPF axisangle0 0.992414 0.122827 0.005322 60.784929
+USER    NEWDPF quat0 0.992414 0.122827 0.005322 60.784929
+USER    NEWDPF dihe0 -156.17 -51.50 95.81 -18.97 -173.71 68.16 22.40 49.71 176.12 -178.36 -67.35 -40.53 -140.56 138.58 -64.39 162.61 -143.88 -37.23 -121.99
+USER  keepresnum = 1
+USER
+BEGIN_RES HIS A 513
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2   and  C3
+REMARK    2  A    between atoms: C3   and  C4
+REMARK    3  A    between atoms: C4   and  C5
+REMARK    4  A    between atoms: C5   and  C6
+REMARK    5  A    between atoms: C6   and  C7
+REMARK    6  A    between atoms: C7   and  C8
+REMARK    7  A    between atoms: C8   and  C9
+REMARK    8  A    between atoms: C9   and  C10
+REMARK    9  A    between atoms: C10  and  N21
+REMARK   10  A    between atoms: C10  and  C11
+REMARK   11  A    between atoms: C11  and  C12
+REMARK   12  A    between atoms: C12  and  C13
+REMARK   13  A    between atoms: C13  and  C14
+REMARK   14  A    between atoms: C14  and  C15
+REMARK   15  A    between atoms: C15  and  C16
+REMARK   16  A    between atoms: C16  and  C17
+REMARK   17  A    between atoms: C17  and  C18
+REMARK   18  A    between atoms: CA   and  CB
+REMARK   19  A    between atoms: CB   and  CG
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  HIS A 513     -64.469 -11.979 -41.227 +0.00 +0.00    +0.141 C
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS A 513     -63.730 -10.659 -41.509 +0.00 +0.00    +0.092 C
+BRANCH   2   3
+ATOM      3  CG  HIS A 513     -64.276  -9.927 -42.692 -0.10 -0.01    +0.054 A
+ATOM      4  CD2 HIS A 513     -65.477  -9.346 -42.913 -0.17 -0.01    +0.125 A
+ATOM      5  NE2 HIS A 513     -65.459  -8.863 -44.199 -0.05 +0.02    -0.316 N
+ATOM      6  CE1 HIS A 513     -64.303  -9.166 -44.757 -0.02 -0.01    +0.214 A
+ATOM      7  C9  HIS A 513     -66.420  -8.216 -44.770 -0.09 -0.00    +0.046 C
+ATOM      8  ND1 HIS A 513     -63.571  -9.801 -43.867 -0.05 +0.02    -0.246 NA
+BRANCH   7   9
+ATOM      9  C8  HIS A 513     -66.996  -7.006 -44.096 -0.10 +0.00    +0.060 C
+BRANCH   9  10
+ATOM     10  C7  HIS A 513     -67.971  -7.439 -43.041 -0.18 +0.00    +0.006 C
+BRANCH  10  11
+ATOM     11  C6  HIS A 513     -67.428  -7.092 -41.687 -0.27 +0.00    +0.000 C
+BRANCH  11  12
+ATOM     12  C5  HIS A 513     -66.051  -6.517 -41.833 -0.29 +0.00    +0.000 C
+BRANCH  12  13
+ATOM     13  C4  HIS A 513     -65.302  -6.677 -40.543 -0.41 -0.00    +0.000 C
+BRANCH  13  14
+ATOM     14  C3  HIS A 513     -66.121  -7.495 -39.587 -0.61 +0.00    -0.000 C
+BRANCH  14  15
+ATOM     15  C2  HIS A 513     -65.287  -8.622 -39.052 -0.68 +0.00    -0.005 C
+ATOM     16  C1  HIS A 513     -63.835  -8.260 -39.154 -0.64 -0.00    +0.005 C
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+BRANCH   7  17
+ATOM     17  C10 HIS A 513     -66.885  -8.638 -45.953 -0.04 -0.00    +0.103 C
+BRANCH  17  18
+ATOM     18  N21 HIS A 513     -67.321  -7.689 -46.974 -0.01 +0.00    -0.118 N
+ATOM     19  O23 HIS A 513     -68.470  -7.272 -46.887 +0.01 +0.01    -0.532 OA
+ATOM     20  O22 HIS A 513     -66.503  -7.389 -47.835 +0.00 +0.03    -0.532 OA
+ENDBRANCH  17  18
+BRANCH  17  21
+ATOM     21  C11 HIS A 513     -66.977 -10.101 -46.272 -0.06 -0.00    +0.066 C
+BRANCH  21  22
+ATOM     22  C12 HIS A 513     -68.102 -10.713 -45.493 -0.13 -0.00    +0.006 C
+BRANCH  22  23
+ATOM     23  C13 HIS A 513     -67.583 -11.865 -44.686 -0.09 -0.00    +0.000 C
+BRANCH  23  24
+ATOM     24  C14 HIS A 513     -66.613 -12.658 -45.511 -0.13 -0.00    +0.000 C
+BRANCH  24  25
+ATOM     25  C15 HIS A 513     -65.451 -13.072 -44.657 -0.17 -0.00    +0.001 C
+BRANCH  25  26
+ATOM     26  C16 HIS A 513     -64.190 -12.473 -45.204 -0.10 -0.00    +0.010 C
+BRANCH  26  27
+ATOM     27  C17 HIS A 513     -63.145 -13.542 -45.336 -0.07 +0.01    +0.113 C
+BRANCH  27  28
+ATOM     28  C18 HIS A 513     -62.047 -13.291 -44.345 +0.01 +0.13    +0.172 C
+ATOM     29  O20 HIS A 513     -62.368 -12.922 -43.206 -0.49 -0.55    -0.648 OA
+ATOM     30  O19 HIS A 513     -60.857 -13.449 -44.655 -0.27 -0.67    -0.648 OA
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  17  21
+ENDBRANCH   7  17
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 513
+TER
+ENDMDL

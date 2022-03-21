@@ -1,0 +1,11 @@
+rank; run; energy; types; h_bonds; hydropho_bonds; saltbridges; others; input_A 
+1; 10; -4.75; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 2; 0; A.367, A.474, A.477, A.478, A.480 
+9; 2; -4.38; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 3; 1; 0; A.367, A.474, A.477, A.478 
+6; 8; -4.45; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 2; 0; A.367, A.474, A.477, A.478, A.480 
+2; 5; -4.65; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 2; 0; A.367, A.474, A.477, A.478, A.480 
+8; 9; -4.44; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 3; 1; 0; A.367, A.474, A.477, A.478 
+4; 6; -4.55; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 3; 1; 0; A.367, A.474, A.477, A.478 
+10; 4; -4.06; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 3; 1; 0; A.474, A.477, A.478, A.480 
+5; 7; -4.47; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 2; 0; A.367, A.474, A.477, A.478, A.480 
+3; 1; -4.56; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 1; 0; A.367, A.474, A.477, A.478, A.480 
+7; 3; -4.44; ['Hydrophobic Interactions', 'Salt Bridges']; 0; 4; 2; 0; A.367, A.474, A.477, A.478, A.480 
