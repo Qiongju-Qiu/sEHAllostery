@@ -4,7 +4,7 @@ Allosteric regulation of the soluble epoxide hydrolase by nitro fatty acids by a
 ### Introduction 
 ***
 This repository provides raw data and analytic scripts for in silico analysis of corresponding paper.
-For more details please see NOTES in each script.
+For more details please see README_NOTES for details of each script.
 
 ### Details
 ***
